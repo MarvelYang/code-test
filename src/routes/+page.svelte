@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import NetworkChart from '$lib/NetworkChart.svelte';
+</script>
+
+<div class="flex justify-center items-center h-screen">
+  <div class="size-full p-4 border rounded shadow-md">
+    <NetworkChart />
+  </div>
+</div>
